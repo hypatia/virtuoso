@@ -116,10 +116,13 @@ warum der Wert den du gewählt hast wichtig für dich ist.
 
 
 Aufgabe 3:
-Im Allgemeinen versuche ich mein Leben anhand dieser Werte auszurichten: 
+
+Im Allgemeinen versuche ich mein Leben anhand dieser Werte auszurichten:
+
 Ich stimme nicht zu 1 ----- 2 ----- 3 ----- 4 ----- 5 Ich stimme zu
 
 
 
 Aufgabe 4:
+
 Was war das letzte Thema zu dem jemand dich eine Person um Rat gefragt hat?
