@@ -125,4 +125,4 @@ Ich stimme nicht zu 1 ----- 2 ----- 3 ----- 4 ----- 5 Ich stimme zu
 
 Aufgabe 4:
 
-Was war das letzte Thema zu dem jemand dich eine Person um Rat gefragt hat?
+Was war das letzte Thema zu dem dich eine Person um Rat gefragt hat?
