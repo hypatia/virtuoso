@@ -47,7 +47,6 @@ Helping society
 Honesty
 Hospitality
 Independence
-Independence
 Influence
 Inner harmony
 Insight
