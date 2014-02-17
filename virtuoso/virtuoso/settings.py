@@ -24,8 +24,13 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+
 ALLOWED_HOSTS = []
 
+FIXTURE_DIRS = (
+    'wordcloud/fixtures',
+)
 
 # Application definition
 
@@ -37,6 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'social.apps.django_app.default',
     'django.contrib.staticfiles',
+    'south',
     'wordcloud',
 )
 
@@ -58,6 +64,12 @@ AUTHENTICATION_BACKENDS = (
     'social.backends.twitter.TwitterOAuth',
     'social.backends.yahoo.YahooOpenId',
     'django.contrib.auth.backends.ModelBackend',
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'social.apps.django_app.context_processors.backends',
+    'social.apps.django_app.context_processors.login_redirect',
 )
 
 ROOT_URLCONF = 'virtuoso.urls'
