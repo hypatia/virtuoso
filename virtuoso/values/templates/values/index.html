@@ -1,0 +1,13 @@
+<h1>Values</h1>
+<!-- This is where we could display as a wordcloud based on frequency
+			need some static js to do that work with the list handed in -->
+
+{% if values_list %}
+    <ul>
+    {% for value in values_list %}
+        <li><a href="{% url 'detail' value.id %}">{{ value.value }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No values are available.</p>
+{% endif %}

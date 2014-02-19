@@ -1,5 +1,5 @@
 from django.contrib import admin
-from wordcloud.models import Value
+from values.models import Value
 
 # Register your models here.
 admin.site.register(Value)
