@@ -1,41 +1,9 @@
-
-
 <!DOCTYPE html>
 <meta charset="utf-8">
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="https://raw.github.com/jasondavies/d3-cloud/master/d3.layout.cloud.js"></script>
 <body>
-<script>
-  var fill = d3.scale.category20();
-  var words = {{ values_json }}
-
-  d3.layout.cloud().size([800, 800])
-      .words(words)
-      .rotate(function() { return ~~(Math.random() * 2) * 90; })
-      .font("Impact")
-      .fontSize(function(d) { return d.size; })
-      .on("end", draw)
-      .start();
-
-  function draw(words) {
-    d3.select("body").append("svg")
-        .attr("width", 1000)
-        .attr("height", 1000)
-      .append("g")
-        .attr("transform", "translate(400,400)")
-      .selectAll("text")
-        .data(words)
-      .enter().append("text")
-        .style("font-size", function(d) { return d.size + "px"; })
-        .style("font-family", "Impact")
-        .style("fill", function(d, i) { return fill(i); })
-        .attr("text-anchor", "middle")
-        .attr("transform", function(d) {
-          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-        })
-        .text(function(d) { return d.text; });
-  }
-</script>
+{{ script|safe }}
 
 <h1>Values</h1>
 <!-- This is where we could display as a wordcloud based on frequency

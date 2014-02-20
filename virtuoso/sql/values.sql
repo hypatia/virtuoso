@@ -1,8 +1,8 @@
-INSERT INTO values_value (value, frequency) VALUES ('Accomplishment', 0);
-INSERT INTO values_value (value, frequency) VALUES ('Accountability', 0);
-INSERT INTO values_value (value, frequency) VALUES ('Achievement', 0);
-INSERT INTO values_value (value, frequency) VALUES ('Activism', 0);
-INSERT INTO values_value (value, frequency) VALUES ('Adventure', 0);
+INSERT INTO values_value (value, frequency) VALUES ('Accomplishment', 5);
+INSERT INTO values_value (value, frequency) VALUES ('Accountability', 6);
+INSERT INTO values_value (value, frequency) VALUES ('Achievement', 7);
+INSERT INTO values_value (value, frequency) VALUES ('Activism', 8);
+INSERT INTO values_value (value, frequency) VALUES ('Adventure', 9);
 INSERT INTO values_value (value, frequency) VALUES ('Affection', 0);
 INSERT INTO values_value (value, frequency) VALUES ('Ambition', 0);
 INSERT INTO values_value (value, frequency) VALUES ('Autonomy', 0);
